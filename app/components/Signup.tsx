@@ -67,7 +67,7 @@ export function SignupFormDemo() {
     <div className="shadow-input mx-auto w-full max-w-4xl rounded-none bg-white p-8 md:rounded-2xl md:p-12 dark:bg-black">
       {/* Modern mini dropdown menu for Environment */}
       <div className="mb-6 flex items-center gap-2">  
-        <span className="text-xs font-medium text-[#5b666d]">Type:</span>
+        <span className="text-xs font-medium text-[#5b666d]">Type</span>
         <MiniDropdown
           options={["Test Case", "Test Scenario"]}
           value={form.sheet}
